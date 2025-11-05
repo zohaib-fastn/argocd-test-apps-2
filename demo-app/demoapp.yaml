@@ -42,4 +42,4 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-  type: NodePort  # You can change this to LoadBalancer if on cloud
+  type: LoadBalancer  # You can change this to LoadBalancer if on cloud
